@@ -18,6 +18,7 @@ class HomeVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+        print("Test")
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

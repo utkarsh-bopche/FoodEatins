@@ -19,6 +19,7 @@
 		1816379E26BC14390022B6E2 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816379D26BC14390022B6E2 /* DataSet.swift */; };
 		1847B0DF26BD062900B07B84 /* RecipesSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847B0DE26BD062900B07B84 /* RecipesSelectionVC.swift */; };
 		1847B0E326BD361800B07B84 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847B0E226BD361800B07B84 /* RecipeCell.swift */; };
+		18E8428C26C168F100C3BA77 /* RecipeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8428B26C168F100C3BA77 /* RecipeDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		1816379D26BC14390022B6E2 /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
 		1847B0DE26BD062900B07B84 /* RecipesSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesSelectionVC.swift; sourceTree = "<group>"; };
 		1847B0E226BD361800B07B84 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		18E8428B26C168F100C3BA77 /* RecipeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				1816378326BC10810022B6E2 /* HomeVC.swift */,
 				1847B0DE26BD062900B07B84 /* RecipesSelectionVC.swift */,
+				18E8428B26C168F100C3BA77 /* RecipeDetailVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				1816379E26BC14390022B6E2 /* DataSet.swift in Sources */,
 				1816378426BC10810022B6E2 /* HomeVC.swift in Sources */,
 				1816378026BC10810022B6E2 /* AppDelegate.swift in Sources */,
+				18E8428C26C168F100C3BA77 /* RecipeDetailVC.swift in Sources */,
 				1847B0E326BD361800B07B84 /* RecipeCell.swift in Sources */,
 				180C1DCD26BC4869000946EA /* CategoryCell.swift in Sources */,
 				1816378226BC10810022B6E2 /* SceneDelegate.swift in Sources */,

@@ -35,7 +35,7 @@ class HomeVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
         return 200
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        categoryToPass = data.burgers[indexPath.row].title
+        categoryToPass = data.categories[indexPath.row].title
         performSegue(withIdentifier: "toRecipesSelection", sender: self)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
